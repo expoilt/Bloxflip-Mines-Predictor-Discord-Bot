@@ -75,9 +75,9 @@ async def mines(ctx, round_id):
         pfp = 'https://cdn.discordapp.com/attachments/1013865134504026112/1015741200722055289/standard.gif'
         em = discord.Embed(color=0x11F1D3)
         em.set_thumbnail(url=pfp)
-        em.set_footer(text="Made by Geek")
+        em.set_footer(text="Made by glass")
         em.add_field(name="Mines predictor",value=row1 + "\n" + row2 + "\n" + row3 + "\n" + row4 +"\n" + row5 + "\n" + "**Accuracy**" + "\n" + info +"%")
         await ctx.reply(embed=em)
 
 
-bot.run("Your bot token here")
+bot.run("MTAxODE5NDAzOTE2Nzc4NzAxOA.GuUzDl.boEZM1iAF_8BWG33_LkRaxaN8dARR51_SyRX5U")
