@@ -72,12 +72,12 @@ async def mines(ctx, round_id):
         row4 = mine16 + mine17 + mine18 + mine19 + mine20
         row5 = mine21 + mine22 + mine23 + mine24 + mine25
         info = str(random.randint(45, 90))
-        pfp = 'https://cdn.discordapp.com/attachments/1013865134504026112/1015741200722055289/standard.gif'
+        pfp = 'https://media.tenor.com/sOYJlfNaeQcAAAPo/kirby-roblox.mp4'
         em = discord.Embed(color=0x11F1D3)
         em.set_thumbnail(url=pfp)
-        em.set_footer(text="Made by Geek")
+        em.set_footer(text="Made by glasses LMAO")
         em.add_field(name="Mines predictor",value=row1 + "\n" + row2 + "\n" + row3 + "\n" + row4 +"\n" + row5 + "\n" + "**Accuracy**" + "\n" + info +"%")
         await ctx.reply(embed=em)
 
 
-bot.run("Your bot token here")
+bot.run("MTAxODE5NDAzOTE2Nzc4NzAxOA.GF_07g.ZgnsYpUE29I6yEFXvhp2xQ2q5iQXk9nRvw4nZE")
